@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": " The Lord of the Rings",
+    "author": " JRR Tolkien",
+    "format": "Paperback"
+  },
+  {
+    "id": 2,
+    "title": " Pride and Prejudice",
+    "author": " Jane Austen",
+    "format": "Hardcover"
+  },
+  {
+    "id": 3,
+    "title": " His Dark Materials",
+    "author": " Philip Pullman",
+    "format": "E-Book"
+  },
+  {
+    "id": 4,
+    "title": " The Hitchhiker",
+    "author": " Douglas Adams\"",
+    "format": "Paperback"
+  },
+  {
+    "id": 5,
+    "title": " Harry Potter and the Goblet of Fire",
+    "author": " JK Rowling",
+    "format": "Hardcover"
+  },
+  {
+    "id": 6,
+    "title": " To Kill a Mockingbird",
+    "author": " Harper Lee",
+    "format": "E-Book"
+  },
+  {
+    "id": 7,
+    "title": " Winnie the Pooh",
+    "author": " AA Milne",
+    "format": "Paperback"
+  },
+  {
+    "id": 8,
+    "title": " Nineteen Eighty-Four",
+    "author": " George Orwell",
+    "format": "Hardcover"
+  },
+  {
+    "id": 9,
+    "title": "The Lion, the Witch and the Wardrobe",
+    "author": " CS Lewis",
+    "format": "E-Book"
+  },
+  {
+    "id": 10,
+    "title": " Jane Eyre",
+    "author": " Charlotte Brontë",
+    "format": "Paperback"
+  },
+  {
+    "id": 11,
+    "title": " Catch-22",
+    "author": " Joseph Heller",
+    "format": "Hardcover"
+  },
+  {
+    "id": 12,
+    "title": " Wuthering Heights",
+    "author": " Emily Brontë",
+    "format": "E-Book"
+  },
+  {
+    "id": 13,
+    "title": " Birdsong",
+    "author": " Sebastian Faulks",
+    "format": "Paperback"
+  },
+  {
+    "id": 14,
+    "title": " Rebecca",
+    "author": " Daphne du Maurier",
+    "format": "Hardcover"
+  },
+  {
+    "id": 15,
+    "title": " The Catcher in the Rye",
+    "author": " JD Salinger",
+    "format": "E-Book"
+  },
+  {
+    "id": 16,
+    "title": " The Wind in the Willows",
+    "author": " Kenneth Grahame",
+    "format": "Paperback"
+  },
+  {
+    "id": 17,
+    "title": " Great Expectations",
+    "author": " Charles Dickens",
+    "format": "Hardcover"
+  },
+  {
+    "id": 18,
+    "title": " Little Women",
+    "author": " Louisa May Alcott",
+    "format": "E-Book"
+  },
+  {
+    "id": 19,
+    "title": " Captain Corelli",
+    "author": " Louis de Bernieres",
+    "format": "Paperback"
+  },
+  {
+    "id": 20,
+    "title": " War and Peace",
+    "author": " Leo Tolstoy",
+    "format": "Hardcover"
+  },
+  {
+    "id": 21,
+    "title": " Gone with the Wind",
+    "author": " Margaret Mitchell",
+    "format": "E-Book"
+  },
+  {
+    "id": 22,
+    "title": " Harry Potter And The Philosopher",
+    "author": " JK Rowling",
+    "format": "Paperback"
+  },
+  {
+    "id": 23,
+    "title": " Harry Potter And The Chamber Of Secrets",
+    "author": " JK Rowling",
+    "format": "Hardcover"
+  },
+  {
+    "id": 24,
+    "title": " Harry Potter And The Prisoner Of Azkaban",
+    "author": " JK Rowling",
+    "format": "E-Book"
+  },
+  {
+    "id": 25,
+    "title": " The Hobbit",
+    "author": " JRR Tolkien",
+    "format": "Paperback"
+  },
+  {
+    "id": 26,
+    "title": " Tess Of The D",
+    "author": " Thomas Hardy",
+    "format": "Hardcover"
+  },
+  {
+    "id": 27,
+    "title": " Middlemarch",
+    "author": " George Eliot",
+    "format": "E-Book"
+  },
+  {
+    "id": 28,
+    "title": " A Prayer For Owen Meany",
+    "author": " John Irving",
+    "format": "Paperback"
+  },
+  {
+    "id": 29,
+    "title": " The Grapes Of Wrath",
+    "author": " John Steinbeck",
+    "format": "Hardcover"
+  },
+  {
+    "id": 30,
+    "title": " Alice",
+    "author": " Lewis Carroll",
+    "format": "E-Book"
+  },
+  {
+    "id": 31,
+    "title": " The Story Of Tracy Beaker",
+    "author": " Jacqueline Wilson",
+    "format": "Paperback"
+  },
+  {
+    "id": 32,
+    "title": " One Hundred Years Of Solitude",
+    "author": " Gabriel García Márquez",
+    "format": "Hardcover"
+  },
+  {
+    "id": 33,
+    "title": " The Pillars Of The Earth",
+    "author": " Ken Follett",
+    "format": "E-Book"
+  },
+  {
+    "id": 34,
+    "title": " David Copperfield",
+    "author": " Charles Dickens",
+    "format": "Paperback"
+  },
+  {
+    "id": 35,
+    "title": " Charlie And The Chocolate Factory",
+    "author": " Roald Dahl",
+    "format": "Hardcover"
+  },
+  {
+    "id": 36,
+    "title": " Treasure Island",
+    "author": " Robert Louis Stevenson",
+    "format": "E-Book"
+  },
+  {
+    "id": 37,
+    "title": " A Town Like Alice",
+    "author": " Nevil Shute",
+    "format": "Paperback"
+  },
+  {
+    "id": 38,
+    "title": " Persuasion",
+    "author": " Jane Austen",
+    "format": "Hardcover"
+  },
+  {
+    "id": 39,
+    "title": " Dune",
+    "author": " Frank Herbert",
+    "format": "E-Book"
+  },
+  {
+    "id": 40,
+    "title": " Emma",
+    "author": " Jane Austen",
+    "format": "Paperback"
+  },
+  {
+    "id": 41,
+    "title": " Anne Of Green Gables",
+    "author": " LM Montgomery",
+    "format": "Hardcover"
+  },
+  {
+    "id": 42,
+    "title": " Watership Down",
+    "author": " Richard Adams",
+    "format": "E-Book"
+  },
+  {
+    "id": 43,
+    "title": " The Great Gatsby",
+    "author": " F Scott Fitzgerald",
+    "format": "Paperback"
+  },
+  {
+    "id": 44,
+    "title": " The Count Of Monte Cristo",
+    "author": " Alexandre Dumas",
+    "format": "Hardcover"
+  },
+  {
+    "id": 45,
+    "title": " Brideshead Revisited",
+    "author": " Evelyn Waugh",
+    "format": "E-Book"
+  },
+  {
+    "id": 46,
+    "title": " Animal Farm",
+    "author": " George Orwell",
+    "format": "Paperback"
+  },
+  {
+    "id": 47,
+    "title": " A Christmas Carol",
+    "author": " Charles Dickens",
+    "format": "Hardcover"
+  },
+  {
+    "id": 48,
+    "title": " Far From The Madding Crowd",
+    "author": " Thomas Hardy",
+    "format": "E-Book"
+  },
+  {
+    "id": 49,
+    "title": " Goodnight Mister Tom",
+    "author": " Michelle Magorian",
+    "format": "Paperback"
+  },
+  {
+    "id": 50,
+    "title": " The Shell Seekers",
+    "author": " Rosamunde Pilcher",
+    "format": "Hardcover"
+  }
+]
