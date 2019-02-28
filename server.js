@@ -6,14 +6,9 @@ let id = 50;
 let books = require("./books.json");
 let instance = require('./book.js');
 
+let port = process.env.PORT || 3000;
+let url = process.env.URL || 'localhost';
 
-// class Book {
-//     constructor(title, author, format) {
-//         this.title = title;
-//         this.author = author;
-//         this.format = format;
-//     }
-// }
 
 function getTopId(books) {
     let id = books.reduce((max, item) => max && max.id > item.id ? max : item.id, null);
@@ -26,8 +21,8 @@ function getTopId(books) {
 
 
 const server = Hapi.server({
-    port: 3000,
-    host: 'localhost',
+    port: port,
+    host: url,
     routes: {
         cors: true
     }
