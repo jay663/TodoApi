@@ -9,7 +9,7 @@ let instance = require('./book.js');
 let port = +process.env.PORT || 3000;
 let url = process.env.URL || 'localhost';
 console.log("The port is: " + port)
-console.log("The host is: " + host)
+console.log("The url is: " + url)
 
 //~~process.env.PORT 
 
