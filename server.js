@@ -6,9 +6,9 @@ let id = 50;
 let books = require("./books.json");
 let instance = require('./book.js');
 
-let port = process.env.PORT || 3000;
+let port = +process.env.PORT || 3000;
 let url = process.env.URL || 'localhost';
-
+//~~process.env.PORT 
 
 function getTopId(books) {
     let id = books.reduce((max, item) => max && max.id > item.id ? max : item.id, null);
