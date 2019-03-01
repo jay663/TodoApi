@@ -34,7 +34,7 @@ const server = Hapi.server({
 server.route({
     path: '/',
     method: 'GET',
-    handler: () => {
+    handler: async () => {
         return {
             message: 'Welcom to the Todos Api!'
         }
@@ -44,7 +44,7 @@ server.route({
 server.route({
     path: '/todos',
     method: 'POST',
-    handler: (request, h) => {
+    handler: async (request, h) => {
         let { id, description } = request.payload;
         const result = {
             id: cuid(),
@@ -60,7 +60,7 @@ server.route({
 server.route({
     path: '/books',
     method: 'GET',
-    handler: () => {
+    handler: async () => {
         return {
             books
         }
@@ -70,7 +70,7 @@ server.route({
 server.route({
     path: '/books',
     method: 'POST',
-    handler: (request, h) => {
+    handler: async (request, h) => {
 
         let { id, title, author, format } = request.payload;
         let topId = getTopId(books);
@@ -89,8 +89,15 @@ server.route({
 
 
 const init = async () => {
-    await server.start();
-    console.log(`Server is running at ${server.info.uri}`);
+    try{
+        await server.start();
+        console.log(`Server is running at ${server.info.uri}`);
+    }
+    catch(err) {
+        console.log(err);
+        console.error(err);
+        process.exit(1);
+    }
 }
 
 init();
