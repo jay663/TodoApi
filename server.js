@@ -6,7 +6,7 @@ let id = 50;
 let books = require("./books.json");
 let instance = require('./book.js');
 
-let port = process.env.PORT || 3000;
+let port = +process.env.PORT || 3000;
 let url = process.env.URL || 'localhost';
 console.log("The port is: " + port)
 console.log("The url is: " + url)
